@@ -78,29 +78,37 @@
         /* Student Name - NOW USING BRQIE FONT */
         .student-name {
             font-family: 'Brqie', sans-serif;
-            font-size: 28px; /* ONLY THIS WAS CHANGED (was 38px) */
+            font-size: 28px; /* Kept at 28px for single line */
             color: #d4af37;
             margin: 25px 0;
             word-wrap: break-word;
         }
         
+        /* --- UPDATED TO MATCH THE IMAGE --- */
         .details {
             font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
+            font-size: 14px; /* Slightly smaller */
             line-height: 1.6;
-            color: #ccc;
+            color: #b0b0b0; /* Lighter grey */
             font-weight: 300;
+            text-align: center; /* Centered like the image */
         }
         
-        /* Certificate Number & Date Footer */
+        .details strong {
+            color: #ffffff; /* Make the masterclass title pop */
+            font-weight: 600;
+        }
+        
+        /* --- UPDATED TO MATCH THE IMAGE --- */
         .footer {
             font-family: 'Montserrat', sans-serif;
-            margin-top: 30px;
-            font-size: 13px;
-            color: #666;
-            border-top: 1px solid #333;
+            margin-top: 25px;
+            font-size: 12px; /* Smaller text */
+            color: #888888; /* Muted grey */
+            border-top: 1px solid #333333;
             padding-top: 20px;
-            line-height: 1.8;
+            line-height: 1.9; /* Better spacing */
+            text-align: center;
         }
     </style>
 </head>
@@ -113,7 +121,8 @@
         <div class="verified-badge">✓ VERIFIED CERTIFICATE</div>
         
         <h1>This certifies that</h1>
-        <!-- Updated student name -->
+        
+        <!-- Student name -->
         <div class="student-name">FERIHA SIRGOTA MOHAMMED</div> 
         
         <div class="details">
